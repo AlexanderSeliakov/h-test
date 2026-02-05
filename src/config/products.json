@@ -1,0 +1,32 @@
+[
+	{
+		"id": "apple",
+		"name": "Apple",
+		"price": 0.3,
+		"image": "🍎"
+	},
+	{
+		"id": "banana",
+		"name": "Banana",
+		"price": 0.5,
+		"image": "🍌"
+	},
+	{
+		"id": "orange",
+		"name": "Orange",
+		"price": 0.6,
+		"image": "🍊"
+	},
+	{
+		"id": "milk",
+		"name": "Milk",
+		"price": 1.2,
+		"image": "🥛"
+	},
+	{
+		"id": "bread",
+		"name": "Bread",
+		"price": 0.8,
+		"image": "🍞"
+	}
+]

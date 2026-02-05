@@ -1,0 +1,17 @@
+[
+	{
+		"productId": "apple",
+		"quantity": 2,
+		"price": 0.45
+	},
+	{
+		"productId": "banana",
+		"quantity": 3,
+		"price": 1.2
+	},
+	{
+		"productId": "bread",
+		"quantity": 2,
+		"price": 1.3
+	}
+]
