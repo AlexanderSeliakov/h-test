@@ -2,16 +2,16 @@
 	{
 		"productId": "apple",
 		"quantity": 2,
-		"price": 0.45
+		"price": 45
 	},
 	{
 		"productId": "banana",
 		"quantity": 3,
-		"price": 1.2
+		"price": 120
 	},
 	{
 		"productId": "bread",
 		"quantity": 2,
-		"price": 1.3
+		"price": 130
 	}
 ]

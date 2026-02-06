@@ -1,9 +1,12 @@
+'use client';
+
 import { ProductList } from '@/components/ProductList';
 import { Cart } from '@/components/Cart';
+import { CartProvider } from '@/context/CartContext';
 
 import styles from './page.module.css';
 
-export default function Home() {
+function StoreContent() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -16,5 +19,13 @@ export default function Home() {
         </aside>
       </main>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <CartProvider>
+      <StoreContent />
+    </CartProvider>
   );
 }

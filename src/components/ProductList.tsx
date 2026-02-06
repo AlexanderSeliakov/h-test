@@ -7,11 +7,10 @@ export function ProductList() {
   const { products, isLoading } = useStoreData();
 
   if (isLoading) {
-    return (
-      <div>
-        <p>Loading products...</p>
-      </div>
-    );
+    return <p>Loading products...</p>;
+  }
+  if (products.length === 0) {
+    return <p>No products found.</p>;
   }
 
   return (
